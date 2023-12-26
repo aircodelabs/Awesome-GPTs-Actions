@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aircode": "0.7.0",
+    "jsdom": "23.0.1",
+    "markmap-lib": "0.15.8",
+    "markmap-view": "0.15.8",
+    "string-pixel-width": "1.11.0"
+  }
+}
