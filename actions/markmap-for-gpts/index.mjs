@@ -7,19 +7,7 @@ import pixelWidth from 'string-pixel-width';
 const width = 800;
 const height = 600;
 
-const dom = new JSDOM(`<!DOCTYPE html><body><svg id="markmap" width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg" style="font-size: 0.75em"></svg></body>`);
-
-// const markdown = `
-// # A
-// ## B
-// ### C
-// ## D
-// - 保持
-// - 使用加湿器：在家中或办公室使用加湿器可以增加空气中的湿度，帮助缓解鼻腔干燥。
-// - 避免刺激物：避免烟草烟雾、尘埃和其他可能引起刺激的物质，这些都可能加剧鼻炎症状。
-// - 清洁鼻腔：使用生理盐水冲洗鼻腔可以帮助保持鼻腔清洁和湿润。
-// - 适当休息：保证充足的休息，有助于身体抵抗感染和减轻症状。
-// `;
+const dom = new JSDOM('<!DOCTYPE html><body></body>');
 
 globalThis.Node = dom.window.Node;
 globalThis.document = dom.window.document;
@@ -71,7 +59,7 @@ export default async function (params, context) {
   
   const { root } = transformer.transform(markdown);
 
-  const svgEl = document.querySelector('svg');
+  document.body.innerHTML = `<svg id="markmap" width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg" style="font-size: 0.75em"></svg>`;
 
   const res = Markmap.create('#markmap', null, root); 
 
