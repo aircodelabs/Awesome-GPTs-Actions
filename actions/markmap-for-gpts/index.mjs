@@ -15,14 +15,16 @@ globalThis.navigator = dom.window.navigator;
 globalThis.SVGElement = dom.window.SVGElement;
 
 dom.window.HTMLElement.prototype.getBoundingClientRect = function() {
-  const width = 2 * pixelWidth(this.textContent, { size: 16 });
+  const bChars = [...this.textContent].filter(t => /[^\x00-\xff]/.test(t));
+  const len = [...this.textContent].length;
+  const width = 0.75 * (bChars.length / len + 1) * pixelWidth(this.textContent, { size: 16 }) + 4;
   return {
     x: 0,
     y: 0,
-    left: width,
-    right: 18,
+    left: 0,
+    right: width,
     top: 0,
-    bottom: 0,
+    bottom: 18,
     width,
     height: 18,
   };
@@ -32,10 +34,10 @@ SVGElement.prototype.getBoundingClientRect = () => {
   return {
     x: 0,
     y: 0,
-    left: width,
-    right: height,
+    left: 0,
+    right: width,
     top: 0,
-    bottom: 0,
+    bottom: height,
     width,
     height,
   };
