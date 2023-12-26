@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log*
+package-lock.json
+.nyc_*/
+.dir-locals.el
+.DS_Store
+.test
+.db
+.meta
