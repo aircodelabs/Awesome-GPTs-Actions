@@ -1,0 +1,7 @@
+{
+  "name": "data assistant",
+  "runtime": "node/v18",
+  "region": "US",
+  "envs": [],
+  "typescript": false
+}
