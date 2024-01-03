@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "aircode": "0.7.0",
+    "js-base64": "3.7.5",
+    "pako": "2.1.0"
+  }
+}

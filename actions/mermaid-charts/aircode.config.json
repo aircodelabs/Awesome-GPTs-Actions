@@ -1,0 +1,7 @@
+{
+  "name": "mermaid for gpts",
+  "runtime": "node/v18",
+  "region": "US",
+  "envs": [],
+  "typescript": false
+}
