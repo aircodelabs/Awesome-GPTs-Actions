@@ -1,9 +1,0 @@
-{
-  "name": "NASA APOD for gpts",
-  "runtime": "node/v18",
-  "region": "US",
-  "envs": [
-    "api_key"
-  ],
-  "typescript": false
-}
