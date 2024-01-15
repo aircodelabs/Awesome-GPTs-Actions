@@ -1,7 +1,0 @@
-{
-  "name": "cnchar for gpts",
-  "runtime": "node/v18",
-  "region": "US",
-  "envs": [],
-  "typescript": false
-}
