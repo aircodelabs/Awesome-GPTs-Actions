@@ -21,4 +21,14 @@ Comparison between NASA's Astronomy Picture of the Day and AI-generated images.
 
 ### Actions
 
-1. [NASA APOD for gpts](actions/nasa-apod)
+1. [NASA APOD for GPTs](actions/nasa-apod)
+
+## [SEO Analyzer](https://chat.openai.com/g/g-OysfiwQCF-seo-analyzer)
+
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/logo3-36lgc1t5k7c.png" width="150"/>
+
+Analyze your site and give the SEO advices.
+
+### Actions
+
+1. [SEO Analyzer for GPTs](actions/seo-analyzer)
