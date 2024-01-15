@@ -1,0 +1,36 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Chinese Character Writing Order",
+    "description": "Get the Writing Order of the Chinese Character",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://znnm5f51mc.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "get": {
+        "description": "Get the Writing Order of the Chinese Character",
+        "operationId": "GetChineseCharacterWritingOrder",
+        "parameters": [
+          {
+            "name": "char",
+            "in": "query",
+            "description": "The Chinese Character",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
