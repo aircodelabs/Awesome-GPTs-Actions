@@ -6,7 +6,7 @@ https://chat.openai.com/g/g-tjktxmBl5-astro-master
 
 1. Create action.
 2. Import JSON Sechma: `https://viriiu53gn.us.aircode.run/schema`.
-3. Set privacy-policy: `https://viriiu53gn.us.aircode.run/policy`
+3. Set privacy-policy: `https://viriiu53gn.us.aircode.run/policy`.
 
 ## One-Click Deployment
 
