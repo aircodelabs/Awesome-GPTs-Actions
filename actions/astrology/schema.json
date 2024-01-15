@@ -1,0 +1,63 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Astral Master",
+    "description": "Astrology for you",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://viriiu53gn.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "get": {
+        "description": "Astrology for you",
+        "operationId": "StartAstrology",
+        "parameters": [
+          {
+            "name": "birthday",
+            "in": "query",
+            "description": "The datatime of your birthday",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "latitude",
+            "in": "query",
+            "description": "The latitude of your birth place",
+            "required": true,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "longitude",
+            "in": "query",
+            "description": "The longitude of your birth place",
+            "required": true,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "tz",
+            "in": "query",
+            "description": "The timezone of your birth place",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
