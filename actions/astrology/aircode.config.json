@@ -1,0 +1,9 @@
+{
+  "name": "astrology for gpts",
+  "runtime": "node/v18",
+  "region": "US",
+  "envs": [
+    "access_token"
+  ],
+  "typescript": false
+}
