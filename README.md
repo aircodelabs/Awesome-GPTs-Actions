@@ -9,5 +9,6 @@
 ## [Data Assistant](actions/data-assistant)  [🔗](https://chat.openai.com/g/g-pShrhKhSv-data-assistant)
 > Let ChaGPT help you process your data.
 
+## [Learn Chinese Character](https://chat.openai.com/g/g-HhhuZ8uIY-learn-chinese-character) [🔗](https://chat.openai.com/g/g-pShrhKhSv-data-assistant)
 
-
+> Let GPT become your Chinese teacher, guiding you step by step to learn how to write Chinese characters.
