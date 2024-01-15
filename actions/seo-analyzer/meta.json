@@ -1,0 +1,36 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "SEO Analyzer",
+    "description": "Analyze your site and give the SEO advices",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://dwrbfidn42.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "get": {
+        "description": "Analyze the giving URL of your site and give the SEO advices",
+        "operationId": "AnalyzeSEOResult",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "The URL to analyze",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
