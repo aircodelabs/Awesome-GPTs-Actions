@@ -1,7 +1,7 @@
 // @see https://docs.aircode.io/guide/functions/
 const aircode = require('aircode');
 
-const api_key = '7SC2uXUpqpLKaXrA0YvIE7b9fegaBF3VEFHoAacx';
+const api_key = process.env.api_key;
 
 module.exports = async function (params, context) {
   console.log('Received params:', params);

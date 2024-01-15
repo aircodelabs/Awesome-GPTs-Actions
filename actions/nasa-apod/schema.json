@@ -1,0 +1,36 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NASA's Astronomy Picture of the Day",
+    "description": "Get NASA's Astronomy Picture of the Day",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://d7etcv548a.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/apod": {
+      "get": {
+        "description": "Get NASA's Astronomy Picture of the Day",
+        "operationId": "GetAPODPicture",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "description": "The date of the picture to get",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
