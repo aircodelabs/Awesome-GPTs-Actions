@@ -1,0 +1,42 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "The mind maps.",
+    "description": "Draw mind maps for me",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://zuf7t5gsvb.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "post": {
+        "x-openai-isConsequential": false,
+        "description": "Draw a mind map",
+        "operationId": "GenerateMindMap",
+        "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                 "schema": {
+                   "type": "object",
+                   "properties": {
+                     "markdown": {
+                       "type": "string",
+                       "description": "The Content to draw."
+                     }
+                   }
+                 }
+              }
+            }
+        },
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

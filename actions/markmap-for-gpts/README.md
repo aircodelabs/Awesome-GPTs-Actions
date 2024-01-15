@@ -1,4 +1,14 @@
+## Example
+
+https://chat.openai.com/g/g-ul2UQRl9q-diagrams-expert
+
 <img src="https://github.com/AirCodeLabs/Awesome-actions-for-GPTs/assets/316498/63ac38cf-7543-4203-ae1e-0b88fd40c995" width="600">
+
+## Configuration
+
+1. Create action.
+2. Import JSON Sechma: `https://zuf7t5gsvb.us.aircode.run/schema`.
+3. Set privacy-policy: `https://zuf7t5gsvb.us.aircode.run/policy`.
 
 ## One-Click Deployment
 
