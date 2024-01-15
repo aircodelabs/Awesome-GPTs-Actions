@@ -1,14 +1,14 @@
-# Powerful Actions Build for GPTs
+# Awesome GPTS
 
-## [Markmap for GPTs](actions/markmap-for-gpts) [🔗](https://chat.openai.com/g/g-SaExnThM9-the-mind-maps)
-> Build mind maps from the markdown content with GPT.
+There's some GPTs created by [AirCode.io](https://aircode.io) powered by [AirCode Actions](actions).
 
-## [Mermaid Charts](actions/mermaid-charts) [🔗](https://chat.openai.com/g/g-ul2UQRl9q-mermaid-flow-charts)
-> Draw Mermaid diagram.
+## [Diagrams Expert](https://chat.openai.com/g/g-ul2UQRl9q-diagrams-expert)
 
-## [Data Assistant](actions/data-assistant)  [🔗](https://chat.openai.com/g/g-pShrhKhSv-data-assistant)
-> Let ChaGPT help you process your data.
+<img align="left" src="https://github.com/AirCodeLabs/Awesome-Actions-and-GPTs/assets/316498/63b41e20-e08d-4fb0-9b3d-6d5600a0d797" width="150">
 
-## [Learn Chinese Character](https://chat.openai.com/g/g-HhhuZ8uIY-learn-chinese-character) [🔗](https://chat.openai.com/g/g-pShrhKhSv-data-assistant)
+Use Markdown-inspired text definitions to create diagrams.
 
-> Let GPT become your Chinese teacher, guiding you step by step to learn how to write Chinese characters.
+### Actions
+
+1. [Markmap for GPTs](/actions/markmap-for-gpts)
+2. [Mermaid Charts](actions/mermaid-charts)
