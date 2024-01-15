@@ -32,3 +32,23 @@ Analyze your site and give the SEO advices.
 ### Actions
 
 1. [SEO Analyzer for GPTs](actions/seo-analyzer)
+
+## [Learn Chinese Character](https://chat.openai.com/g/g-HhhuZ8uIY-learn-chinese-character)
+
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/logo4-q6kgpblf5cf.png" width="150"/>
+
+Let GPT become your Chinese teacher, guiding you step by step to learn how to write Chinese characters.
+
+### Actions
+
+1. [Chinese character util](actions/cnchar)
+
+## [Astro Master](https://chat.openai.com/g/g-tjktxmBl5-astro-master)
+
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/logo5-u5syjfcj52q.png" width="150"/>
+
+Help you analyze your natal chart, comb through your personal growth path and opportunities.
+
+### Actions
+
+1. [Astrology for GPTs](actions/astrology)
