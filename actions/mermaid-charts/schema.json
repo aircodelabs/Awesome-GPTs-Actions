@@ -1,0 +1,42 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "The mermaid flow charts.",
+    "description": "Draw flow charts for me",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://xiph2cg896.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "post": {
+        "x-openai-isConsequential": false,
+        "description": "Draw a mermaid flow chart",
+        "operationId": "GenerateMermaidChart",
+        "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                 "schema": {
+                   "type": "object",
+                   "properties": {
+                     "code": {
+                       "type": "string",
+                       "description": "The Mermaid Chart to draw."
+                     }
+                   }
+                 }
+              }
+            }
+        },
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
