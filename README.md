@@ -4,7 +4,7 @@ There's some GPTs created by [AirCode.io](https://aircode.io) powered by [AirCod
 
 ## [Diagrams Expert](https://chat.openai.com/g/g-ul2UQRl9q-diagrams-expert)
 
-<img align="right" src="https://github.com/AirCodeLabs/Awesome-Actions-and-GPTs/assets/316498/63b41e20-e08d-4fb0-9b3d-6d5600a0d797" width="150"/>
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/logo1-jyc1yh6evm.png" width="150"/>
 
 Use Markdown-inspired text definitions to create diagrams.
 
@@ -15,7 +15,7 @@ Use Markdown-inspired text definitions to create diagrams.
 
 ## [Reality and Imagination](https://chat.openai.com/g/g-EwRoFY3f5-reality-and-imagination)
 
-<img align="right" src="https://github.com/AirCodeLabs/Awesome-Actions-and-GPTs/assets/316498/fc8eb1b4-6b46-46cd-92a0-f22e67502907" width="150"/>
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/logo2-q22if89re5q.png" width="150"/>
 
 Comparison between NASA's Astronomy Picture of the Day and AI-generated images.
 
