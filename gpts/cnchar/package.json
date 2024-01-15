@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "aircode": "0.7.0",
+    "cnchar": "3.2.5",
+    "cnchar-draw": "3.2.5",
+    "cnchar-order": "3.2.5",
+    "cnchar-poly": "3.2.5",
+    "cnchar-xhy": "3.2.5",
+    "jsdom-global": "3.0.2"
+  }
+}
