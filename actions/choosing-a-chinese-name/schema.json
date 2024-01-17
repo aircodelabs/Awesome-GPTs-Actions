@@ -1,0 +1,45 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Choose a Chinese Name",
+    "description": "Let AI help you pick a Chinese name that is pleasant-sounding and has a good meaning.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://zea8z9w58p.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "get": {
+        "description": "Provide you with 5 Chinese names for you to choose from.",
+        "operationId": "ChooseChineseNames",
+        "parameters": [
+          {
+            "name": "surname",
+            "in": "query",
+            "description": "The surnames in Chinese names.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+            {
+            "name": "gender",
+            "in": "query",
+            "description": "The gender of the person awaiting a name, value are boy or girl.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}
