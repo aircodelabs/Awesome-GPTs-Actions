@@ -52,3 +52,13 @@ Help you analyze your natal chart, comb through your personal growth path and op
 ### Actions
 
 1. [Astrology for GPTs](actions/astrology)
+
+## [Skudoku Game](https://chat.openai.com/g/g-5LzPxfckn-sudoku-game)
+
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/e9784f60-ba6b-4617-86ac-809d321f7958-l7z16o2aze.webp" width="150"/>
+
+Play Sudoku Game with AI.
+
+### Actions
+
+1. [Skudoku for GTPs](actions/skudoku)
