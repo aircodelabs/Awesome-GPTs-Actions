@@ -62,3 +62,11 @@ Play Sudoku Game with AI.
 ### Actions
 
 1. [Skudoku for GTPs](actions/skudoku)
+
+## [Choosing a Chinese Name](https://chat.openai.com/g/g-pH0Dl3D1F-choosing-a-chinese-name)
+
+<img align="right" src="https://aircode-yvo.b-cdn.net/resource/qmz-kugwgzjpa8q.png" width="150"/>
+
+### Actions
+
+1. [Choosing a Chinese Name for GPTs](actions/choosing-a-chinese-name)
