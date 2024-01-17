@@ -1,0 +1,36 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sudoku Generator And Solver",
+    "description": "Generate the Sudoku Game for player and help to solve the game.",
+    "version": "v1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://kh961iiqyb.us.aircode.run"
+    }
+  ],
+  "paths": {
+    "/index": {
+      "get": {
+        "description": "Generate a Sudoku Game for player.",
+        "operationId": "GenerateSudokuGame",
+        "parameters": [
+          {
+            "name": "difficulty",
+            "in": "query",
+            "description": "The Difficulty of the Game, value are one of easy, normal, hard or veryhard",
+            "required": true,
+            "schema": {
+              "type": "string",
+            }
+          }
+        ],
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  }
+}

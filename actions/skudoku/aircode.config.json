@@ -1,0 +1,9 @@
+{
+  "name": "Skudoku for GPTs",
+  "runtime": "node/v18",
+  "region": "US",
+  "envs": [
+    "KEY"
+  ],
+  "typescript": false
+}
