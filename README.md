@@ -67,6 +67,8 @@ Play Sudoku Game with AI.
 
 <img align="right" src="https://aircode-yvo.b-cdn.net/resource/qmz-kugwgzjpa8q.png" width="150"/>
 
+Let AI help you pick a Chinese name that is pleasant-sounding and has a good meaning.
+
 ### Actions
 
 1. [Choosing a Chinese Name for GPTs](actions/choosing-a-chinese-name)
