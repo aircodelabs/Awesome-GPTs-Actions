@@ -1,9 +1,8 @@
 const aircode = require('aircode');
-
-require('jsdom-global')()
 const cnchar = require('cnchar');
 
 module.exports = async function (text) {
+  require('jsdom-global')();
   document.body.innerHTML = '<div id="drawStroke"></div>';
 
   const draw = require('cnchar-draw');
